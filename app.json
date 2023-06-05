@@ -65,12 +65,17 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit.",
          "required": true,
-         "value": "TG_FRIENDSS"
+         "value": "indian_chatting_club_offic"
       },
       "TOKEN": {
          "description": "Get bot token from @BotFather on TG",
          "required": true,
          "value": ""
-      }
+      },
+         "CHANNEL": {
+             "descriptiom": "bask channel I'd mat daldena",
+             "required": true, 
+             "value": ""
+          },
    }
 }
