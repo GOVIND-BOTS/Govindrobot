@@ -72,10 +72,10 @@
          "required": true,
          "value": ""
       },
-         "CHANNEL": {
-             "descriptiom": "bask channel I'd mat daldena",
-             "required": true, 
-             "value": ""
+       
+      
+             
+
           },
    }
 }
