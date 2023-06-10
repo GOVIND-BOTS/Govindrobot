@@ -10,17 +10,17 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID
 
 PHOTO = [
-    "https://telegra.ph/file/d2a23fbe48129a7957887.jpg",
-    "https://telegra.ph/file/ddf30888de58d77911ee1.jpg",
-    "https://telegra.ph/file/268d66cad42dc92ec65ca.jpg",
-    "https://telegra.ph/file/13a0cbbff8f429e2c59ee.jpg",
-    "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
+    "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg",
+    "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg",
+    "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg",
+    "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg",
+    "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg",
 ]
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="📍𝐎𝐰𝐧𝐞𝐫📍", url=f"tg://user?id=5348648456"),
-        InlineKeyboardButton(text="🍒𝐆𝐫𝐨𝐮𝐩🍒", url=f"https://t.me/indian_chatting_club_offical"),
+        InlineKeyboardButton(text="❤️𝐎𝐖𝐍𝐄𝐑❤️‍🩹", url=f"tg://user?id=6099950428"),
+        InlineKeyboardButton(text="🍒𝐆𝐑𝐎𝐔𝐏🍒", url=f"https://t.me/indian_chatting_club_offical"),
     ],
     [
         InlineKeyboardButton(
@@ -30,7 +30,7 @@ Mukesh = [
     ],
 ]
 
-lol = "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+lol = "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg"
 
 
 @pbot.on_message(filters.command("alive"))
@@ -48,16 +48,16 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.5)
     umm = await m.reply_sticker(
-        "CAACAgUAAxkDAAJHbmLuy2NEfrfh6lZSohacEGrVjd5wAAIOBAACl42QVKnra4sdzC_uKQQ"
+        "https://te.legra.ph/file/cb7c4a9912b7565186171.png"
     )
     await umm.delete()
     await asyncio.sleep(0.8)
     await m.reply_photo(
         lol,
-        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[ICV 𝗥𝗢𝗕𝗢𝗧](f"t.me/{BOT_USERNAME}")』🎄**
+        caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[𝗜𝗖𝗖 𝗥𝗢𝗕𝗢𝗧](f"t.me/{BOT_USERNAME}")』🎄**
    ╔═════ஜ۩۞۩ஜ════╗
 
-   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [GOVIND](https://t.me/GOVIND_OFFICIAL_MP42)♨️
+   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗚𝗢𝗩𝗜𝗡𝗗](https://t.me/GOVIND_OFFICIAL_MP42)♨️
 
    ╚═════ஜ۩۞۩ஜ════╝""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
@@ -68,4 +68,4 @@ __help__ = """
 *ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs*:
 » /alive*:* ᴛᴏ ᴄʜᴇᴀᴋ ❓  ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ?
 
-☆............𝙱𝚈 » [GOVIND](https://t.me/GOVIND_OFFICIAL_MP42)............☆"""
+☆............𝙱𝚈 » [𝗚𝗢𝗩𝗜𝗡𝗗](https://t.me/GOVIND_OFFICIAL_MP42)............☆"""
