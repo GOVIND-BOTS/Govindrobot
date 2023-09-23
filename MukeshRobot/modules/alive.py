@@ -19,8 +19,8 @@ PHOTO = [
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="❤️𝐎𝐖𝐍𝐄𝐑❤️‍🩹", url=f"tg://user?id=6099950428"),
-        InlineKeyboardButton(text="🍒𝐆𝐑𝐎𝐔𝐏🍒", url=f"https://t.me/indian_chatting_club_offical"),
+        InlineKeyboardButton(text="❤️𝐎𝐖𝐍𝐄𝐑❤️‍🩹", url=f"tg://user?id=6540170882"),
+        InlineKeyboardButton(text="🍒𝐆𝐑𝐎𝐔𝐏🍒", url=f"https://t.me/GOVIND_USERBOT_UPDATE"),
     ],
     [
         InlineKeyboardButton(
@@ -36,7 +36,7 @@ lol = "https://te.legra.ph/file/e1e8f294df0f0a4803dcc.jpg"
 @pbot.on_message(filters.command("alive"))
 async def restart(client, m: Message):
     await m.delete()
-    accha = await m.reply("⚡")
+    accha = await m.reply("😙")
     await asyncio.sleep(0.5)
     await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
     await asyncio.sleep(0.5)
@@ -57,7 +57,7 @@ async def restart(client, m: Message):
         caption=f"""**🌷ʜᴇʏ, ɪ ᴀᴍ 『[𝗜𝗖𝗖 𝗥𝗢𝗕𝗢𝗧](f"t.me/{BOT_USERNAME}")』🎄**
    ╔═════ஜ۩۞۩ஜ════╗
 
-   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗚𝗢𝗩𝗜𝗡𝗗](https://t.me/GOVIND_OFFICIAL_MP42)♨️
+   ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗚𝗢𝗩𝗜𝗡𝗗](https://t.me/GOVIND_OFFICIAL_MP40)♨️
 
    ╚═════ஜ۩۞۩ஜ════╝""",
         reply_markup=InlineKeyboardMarkup(Mukesh),
@@ -68,4 +68,4 @@ __help__ = """
 *ᴜsᴇʀ ᴄᴏᴍᴍᴀɴᴅs*:
 » /alive*:* ᴛᴏ ᴄʜᴇᴀᴋ ❓  ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ?
 
-☆............𝙱𝚈 » [𝗚𝗢𝗩𝗜𝗡𝗗](https://t.me/GOVIND_OFFICIAL_MP42)............☆"""
+☆............𝙱𝚈 » [𝗚𝗢𝗩𝗜𝗡𝗗](https://t.me/GOVIND_OFFICIAL_MP0)............☆"""
