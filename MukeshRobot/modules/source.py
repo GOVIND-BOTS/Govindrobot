@@ -9,7 +9,7 @@ from telethon import __version__ as s
 from MukeshRobot import OWNER_ID, dispatcher
 from MukeshRobot import pbot as client
 
-Mukesh = "https://graph.org/file/d874fc40ddf9ead0cad6b.jpg"
+Mukesh = "https://telegra.ph/file/b3706d0b086f1da018488.jpg"
 
 
 @client.on_message(filters.command(["repo", "source"]))
@@ -20,21 +20,21 @@ async def repo(client, message):
 
 ╔═════ஜ۩۞۩ஜ════╗
 
- ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/the_vip_boy)♨️
+ ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝐆𝐎𝐕𝐈𝐍𝐃](https://t.me/GOVIND_OFFICIAL_MP0)♨️
   
 ╚═════ஜ۩۞۩ஜ════╝
 
-**[𝗩𝗜𝗣 𝗥𝗢𝗕𝗢𝗧](t.me/{dispatcher.bot.username}) sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
+**[𝗥𝗢𝗕𝗢𝗧](t.me/{dispatcher.bot.username}) sᴏᴜʀᴄᴇ ɪs ɴᴏᴡ ᴩᴜʙʟɪᴄ ᴀɴᴅ ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ.**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "•📍ᴏᴡɴᴇʀ📍",f"tg://user?id={OWNER_ID}"
+                        "•📍𝐎𝐖𝐍𝐄𝐑📍",f"tg://user?id={OWNER_ID}"
                     ),
                     InlineKeyboardButton(
-                        "📍ʀᴇᴘᴏ📍",
-                        url="https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+                        "📍𝐑𝐄𝐏𝐎📍",
+                        url="https://github.com/GOVIND-BOTS/Govindrobot",
                     ),
                 ]
             ]
