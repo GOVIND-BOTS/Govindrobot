@@ -17,14 +17,14 @@ class Config(object):
     API_ID = "25357017" # integer value, dont use ""
     API_HASH = "df7ba78cede9124c83aeda70288f51ca"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "5348648456" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "GOVIND_OFFICIAL_MP42"
-    SUPPORT_CHAT = "indian_chatting_club_offical"  # Your own group for support, do not add the @
+    OWNER_ID = "6540170882" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "GOVIND_OFFICIAL_MP0"
+    SUPPORT_CHAT = "GOVIND_USERBOT_SPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001652662001
+        -1001936271147
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001652662001
+        -1001936271147
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
@@ -35,7 +35,7 @@ class Config(object):
     INFOPIC = True
     URL = None
     SPAMWATCH_API = "ibGjchtz3djmcaIDiG3qoLX8KE0Npo1ChFiH7QGpjoQY1uB7BGOPJ~DOT07c0VSH"  # go to support.spamwat.ch to get key
-    SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
+    SPAMWATCH_SUPPORT_CHAT = "@GOVIND_USERBOT_SPPORT"
 
     # OPTIONAL
     ##List of id's -  (not usernames) for users which have sudo access to the bot.
@@ -47,7 +47,7 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "1808943146")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/the_vip_boy" # EG, paypal
+    DONATION_LINK = "https://t.me/GOVIND_OFFICIAL_MP0" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
