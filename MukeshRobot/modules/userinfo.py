@@ -337,10 +337,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/the_vip_boy"
+                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/GOVIND_OFFICIAL_MP1"
                             ),
                             InlineKeyboardButton(
-                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/vip_creators"
+                                "Dɪsᴀsᴛᴇʀ", url="https://t.me/govind_x_update"
                             ),
                         ],
                         [
@@ -363,10 +363,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/the_vip_boy"
+                                "ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/GOVIND_OFFICIAL_MP1"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/vip_creators"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/govind_x_update"
                             ),
                         ],
                         [
@@ -571,7 +571,7 @@ __help__ = """
  ❍ /info *:* ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ. 
  ❍ /myinfo *:* sʜᴏᴡs ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴜsᴇʀ ᴡʜᴏ sᴇɴᴛ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [𝐆𝐎𝐕𝐈𝐍𝐃](https://t.me/GOVIND_OFFICIAL_MP1)............☆
 """
 
 SET_BIO_HANDLER = DisableAbleCommandHandler("setbio", set_about_bio)
