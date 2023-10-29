@@ -18,7 +18,7 @@ class Config(object):
     API_HASH = "df7ba78cede9124c83aeda70288f51ca"
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = "6540170882" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "GOVIND_OFFICIAL_MP0"
+    OWNER_USERNAME = "GOVIND_OFFICIAL_MP1"
     SUPPORT_CHAT = "GOVIND_USERBOT_SPPORT"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001936271147
@@ -47,7 +47,7 @@ class Config(object):
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     TIGERS = get_user_list("elevated_users.json", "1808943146")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
-    DONATION_LINK = "https://t.me/GOVIND_OFFICIAL_MP0" # EG, paypal
+    DONATION_LINK = "https://t.me/GOVIND_OFFICIAL_MP1" # EG, paypal
     CERT_PATH = None
     PORT = 5000
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
