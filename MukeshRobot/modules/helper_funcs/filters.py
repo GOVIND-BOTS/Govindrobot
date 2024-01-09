@@ -20,7 +20,6 @@ from MukeshRobot.modules.disable import DisableAbleCommandHandler
 from MukeshRobot.modules.helper_funcs.alternate import send_message, typing_action
 from MukeshRobot.modules.helper_funcs.chat_status import user_admin
 from MukeshRobot.modules.helper_funcs.extraction import extract_text
-from MukeshRobot.modules.helper_funcs.filters import CustomFilters
 from MukeshRobot.modules.helper_funcs.handlers import MessageHandlerChecker
 from MukeshRobot.modules.helper_funcs.misc import build_keyboard_parser
 from MukeshRobot.modules.helper_funcs.msg_types import get_filter_type
