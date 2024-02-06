@@ -39,7 +39,6 @@ from MukeshRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from MukeshRobot.modules.helper_funcs.filters import CustomFilters
 from MukeshRobot.modules.helper_funcs.misc import split_message
 from MukeshRobot.modules.helper_funcs.string_handling import split_quotes
 from MukeshRobot.modules.log_channel import loggable
